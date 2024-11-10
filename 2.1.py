@@ -8,7 +8,7 @@ while True:
     szo = input("Írjon be egy szót: ")
     if szo == "":
         break
-    if szo[0].lower() == "a":
+    if szo[0] == "a":
         szavak.append(szo)
 
 print("Az eltárolt szavak: ")
